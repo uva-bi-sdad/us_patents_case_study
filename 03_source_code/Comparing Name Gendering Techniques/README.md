@@ -7,3 +7,5 @@ First Run the Python Notebook Sampling_and_gendering.ipynb which reads in invent
 stratified sample of data to run the Genderize.io method, and then exports intermediate data files that are used by the next file.
 
 Next, run the R file sample_genderizer.R that applies IPUMS, SSA, and NAPP methods, and exports the data files for analysis 
+
+Finally, run the results notebook to view the accuracy and confusion matrices for each method.
