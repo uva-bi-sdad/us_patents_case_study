@@ -1,0 +1,1 @@
+For both datasets, an observation (row) contains information for a unique inventor-location pair.  For example, an inventor with k locations will make up k rows of the dataset.
