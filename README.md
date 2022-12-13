@@ -14,3 +14,7 @@ Topics investigated included inventor location, inventor collaborations and gend
 
 03_source_code
 
+04_products: 
+
+**Project Contact**
+Stephanie Shipp, sshipp@virginia.edu
