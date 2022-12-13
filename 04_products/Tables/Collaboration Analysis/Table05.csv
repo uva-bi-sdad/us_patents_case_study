@@ -1,0 +1,185 @@
+field,year,patent_category,count
+civil engineering,1976,collaborative,46
+civil engineering,1976,solo,59
+civil engineering,1977,collaborative,49
+civil engineering,1977,solo,63
+civil engineering,1978,collaborative,66
+civil engineering,1978,solo,74
+civil engineering,1979,collaborative,50
+civil engineering,1979,solo,38
+civil engineering,1980,collaborative,47
+civil engineering,1980,solo,64
+civil engineering,1981,collaborative,56
+civil engineering,1981,solo,67
+civil engineering,1982,collaborative,50
+civil engineering,1982,solo,55
+civil engineering,1983,collaborative,41
+civil engineering,1983,solo,45
+civil engineering,1984,collaborative,74
+civil engineering,1984,solo,65
+civil engineering,1985,collaborative,92
+civil engineering,1985,solo,53
+civil engineering,1986,collaborative,73
+civil engineering,1986,solo,47
+civil engineering,1987,collaborative,75
+civil engineering,1987,solo,77
+civil engineering,1988,collaborative,72
+civil engineering,1988,solo,59
+civil engineering,1989,collaborative,97
+civil engineering,1989,solo,98
+civil engineering,1990,collaborative,105
+civil engineering,1990,solo,62
+civil engineering,1991,collaborative,113
+civil engineering,1991,solo,70
+civil engineering,1992,collaborative,135
+civil engineering,1992,solo,85
+civil engineering,1993,collaborative,121
+civil engineering,1993,solo,83
+civil engineering,1994,collaborative,113
+civil engineering,1994,solo,73
+civil engineering,1995,collaborative,123
+civil engineering,1995,solo,60
+civil engineering,1996,collaborative,142
+civil engineering,1996,solo,74
+civil engineering,1997,collaborative,138
+civil engineering,1997,solo,74
+civil engineering,1998,collaborative,172
+civil engineering,1998,solo,85
+civil engineering,1999,collaborative,204
+civil engineering,1999,solo,85
+civil engineering,2000,collaborative,219
+civil engineering,2000,solo,76
+civil engineering,2001,collaborative,192
+civil engineering,2001,solo,82
+civil engineering,2002,collaborative,232
+civil engineering,2002,solo,77
+civil engineering,2003,collaborative,193
+civil engineering,2003,solo,80
+civil engineering,2004,collaborative,227
+civil engineering,2004,solo,74
+civil engineering,2005,collaborative,190
+civil engineering,2005,solo,70
+civil engineering,2006,collaborative,216
+civil engineering,2006,solo,70
+civil engineering,2007,collaborative,200
+civil engineering,2007,solo,62
+civil engineering,2008,collaborative,190
+civil engineering,2008,solo,43
+civil engineering,2009,collaborative,216
+civil engineering,2009,solo,52
+civil engineering,2010,collaborative,300
+civil engineering,2010,solo,71
+civil engineering,2011,collaborative,307
+civil engineering,2011,solo,72
+civil engineering,2012,collaborative,330
+civil engineering,2012,solo,72
+civil engineering,2013,collaborative,400
+civil engineering,2013,solo,96
+civil engineering,2014,collaborative,497
+civil engineering,2014,solo,96
+civil engineering,2015,collaborative,506
+civil engineering,2015,solo,125
+civil engineering,2016,collaborative,558
+civil engineering,2016,solo,123
+civil engineering,2017,collaborative,630
+civil engineering,2017,solo,106
+civil engineering,2018,collaborative,669
+civil engineering,2018,solo,104
+civil engineering,2019,collaborative,769
+civil engineering,2019,solo,144
+civil engineering,2020,collaborative,784
+civil engineering,2020,solo,107
+civil engineering,2021,collaborative,739
+civil engineering,2021,solo,110
+pharmaceuticals,1976,collaborative,26
+pharmaceuticals,1976,solo,14
+pharmaceuticals,1977,collaborative,39
+pharmaceuticals,1977,solo,10
+pharmaceuticals,1978,collaborative,53
+pharmaceuticals,1978,solo,12
+pharmaceuticals,1979,collaborative,39
+pharmaceuticals,1979,solo,10
+pharmaceuticals,1980,collaborative,65
+pharmaceuticals,1980,solo,14
+pharmaceuticals,1981,collaborative,58
+pharmaceuticals,1981,solo,17
+pharmaceuticals,1982,collaborative,53
+pharmaceuticals,1982,solo,13
+pharmaceuticals,1983,collaborative,43
+pharmaceuticals,1983,solo,16
+pharmaceuticals,1984,collaborative,87
+pharmaceuticals,1984,solo,27
+pharmaceuticals,1985,collaborative,99
+pharmaceuticals,1985,solo,25
+pharmaceuticals,1986,collaborative,106
+pharmaceuticals,1986,solo,16
+pharmaceuticals,1987,collaborative,166
+pharmaceuticals,1987,solo,32
+pharmaceuticals,1988,collaborative,198
+pharmaceuticals,1988,solo,25
+pharmaceuticals,1989,collaborative,253
+pharmaceuticals,1989,solo,34
+pharmaceuticals,1990,collaborative,292
+pharmaceuticals,1990,solo,27
+pharmaceuticals,1991,collaborative,308
+pharmaceuticals,1991,solo,42
+pharmaceuticals,1992,collaborative,407
+pharmaceuticals,1992,solo,39
+pharmaceuticals,1993,collaborative,458
+pharmaceuticals,1993,solo,43
+pharmaceuticals,1994,collaborative,445
+pharmaceuticals,1994,solo,40
+pharmaceuticals,1995,collaborative,592
+pharmaceuticals,1995,solo,37
+pharmaceuticals,1996,collaborative,784
+pharmaceuticals,1996,solo,64
+pharmaceuticals,1997,collaborative,1127
+pharmaceuticals,1997,solo,81
+pharmaceuticals,1998,collaborative,1436
+pharmaceuticals,1998,solo,114
+pharmaceuticals,1999,collaborative,1475
+pharmaceuticals,1999,solo,114
+pharmaceuticals,2000,collaborative,1514
+pharmaceuticals,2000,solo,107
+pharmaceuticals,2001,collaborative,1687
+pharmaceuticals,2001,solo,120
+pharmaceuticals,2002,collaborative,1829
+pharmaceuticals,2002,solo,111
+pharmaceuticals,2003,collaborative,1829
+pharmaceuticals,2003,solo,110
+pharmaceuticals,2004,collaborative,1516
+pharmaceuticals,2004,solo,91
+pharmaceuticals,2005,collaborative,1550
+pharmaceuticals,2005,solo,74
+pharmaceuticals,2006,collaborative,1883
+pharmaceuticals,2006,solo,95
+pharmaceuticals,2007,collaborative,1821
+pharmaceuticals,2007,solo,92
+pharmaceuticals,2008,collaborative,1813
+pharmaceuticals,2008,solo,92
+pharmaceuticals,2009,collaborative,2084
+pharmaceuticals,2009,solo,82
+pharmaceuticals,2010,collaborative,2660
+pharmaceuticals,2010,solo,138
+pharmaceuticals,2011,collaborative,2647
+pharmaceuticals,2011,solo,120
+pharmaceuticals,2012,collaborative,3144
+pharmaceuticals,2012,solo,139
+pharmaceuticals,2013,collaborative,3549
+pharmaceuticals,2013,solo,149
+pharmaceuticals,2014,collaborative,3792
+pharmaceuticals,2014,solo,172
+pharmaceuticals,2015,collaborative,3570
+pharmaceuticals,2015,solo,162
+pharmaceuticals,2016,collaborative,3647
+pharmaceuticals,2016,solo,158
+pharmaceuticals,2017,collaborative,3921
+pharmaceuticals,2017,solo,184
+pharmaceuticals,2018,collaborative,3747
+pharmaceuticals,2018,solo,166
+pharmaceuticals,2019,collaborative,3960
+pharmaceuticals,2019,solo,191
+pharmaceuticals,2020,collaborative,3940
+pharmaceuticals,2020,solo,177
+pharmaceuticals,2021,collaborative,3717
+pharmaceuticals,2021,solo,166
