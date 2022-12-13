@@ -1,0 +1,9 @@
+field,group_year,team_size,sd_size,sd_ratio_women,ratio_women,pct_one,pct_two,pct_more_3
+civil engineering,1976-1990,2.56,0.97,0.13,44.72,89.13,9.78,1.09
+civil engineering,1990-2000,3.11,1.64,0.15,40.42,92.09,6.67,1.24
+civil engineering,2000-2010,3.84,2.3,0.16,35.83,90.81,7.58,1.61
+civil engineering,2010-2021,3.91,2.07,0.15,34.96,86.82,10.96,2.22
+pharmaceuticals,1976-1990,3.03,1.24,0.15,41.33,86.19,11.28,2.53
+pharmaceuticals,1990-2000,3.8,1.97,0.17,39.51,76.87,18.39,4.74
+pharmaceuticals,2000-2010,4.7,3.07,0.18,37.43,66.61,22.91,10.48
+pharmaceuticals,2010-2021,4.98,3.21,0.18,36.88,62.64,24.78,12.58
