@@ -122,12 +122,14 @@ ggarrange(plt1, plt2,
 plt3
 
 
+
 # save the data
 US_patent01 <- US_patent01 %>% 
-  pivot_wider(names_from = gender, values_from = value)
+  filter(gender %in% c('men','women','unknown')) %>%
+  select(field,year,gender,number_inventors=value)
 
-savepath = "/us_patents_case_study/04_products/Tables/"
-readr::write_csv(US_patent01, paste0(savepath,"gender_distribution_field_year.csv"))
+#savepath = "us_patents_case_study/04_products/Tables/Collaboration Analysis/"
+readr::write_csv(US_patent01, "inventors_distribution_by_year_field_gender.csv")
 
 ```
 
@@ -149,9 +151,6 @@ patent_category <- US_patent %>%
   mutate(gender = replace(gender, gender == 'Npatent_nowomen', 'men'), 
          gender = replace(gender, gender == 'Npatent_withwomen', 'women'),
          type = if_else(dummy_collab==1,'Collaborative','Solo')) 
-
-
-
 
 # Distribution of patents by type (solo or collaborative)
 plt4a <- ggplot(subset(patent_category, (field=='pharmaceuticals') & (gender %in% c('Npatent')) ), aes(x=year, y=value, fill=type)) + 
@@ -205,7 +204,6 @@ patent_category <- patent_category %>%
   mutate(gender = replace(gender, gender == 'men', 'only men'), 
          gender = replace(gender, gender == 'women', 'with women'))
 
-
 plt5b <- ggplot(subset(patent_category, (dummy_collab==1) & (field=='pharmaceuticals') & (gender %in% c('only men','with women')) ), aes(x=year, y=value, fill=gender)) + 
   geom_bar(stat="identity",colour="black") +
   ylim(0,8000) +
@@ -226,6 +224,15 @@ ggarrange(plt5b, plt6b,
           legend="bottom",
           common.legend=T)
 
+
+
+# save the data
+patent_category01 <- patent_category %>% 
+  filter(gender %in% c('only men','with women')) %>%
+  select(field,year,patent_category=type,gender_patent_feature=gender,number_patents=value)
+
+#savepath = "us_patents_case_study/04_products/Tables/Collaboration Analysis/"
+readr::write_csv(patent_category01, "patent_distribution_by_field_year_patentcategory_genderfeature.csv")
 
 
 # # effect from collaboration
@@ -251,6 +258,8 @@ ggarrange(plt5b, plt6b,
 #           widths = c(3, 3) ,
 #           legend="bottom",
 #           common.legend=T)
+
+
 ```
 
 ## Diversity within collaborative patents
@@ -276,7 +285,7 @@ within_collab_diverse01 <- within_collab_diverse %>%
     group_by(field,group_year) %>%
     summarise(team_size=round(mean(Ninventor),2),
               sd_size=round(sd(Ninventor),2),
-              sd_ratio_women=round(sd(ratio_women),2),
+              sd_ratio_women=round(sd(100*ratio_women),2),
               ratio_women=round(mean(100*ratio_women),2))
 
 
@@ -300,6 +309,13 @@ within_collab_diverse02 <- within_collab_diverse %>%
 
 within_collab_diverse01 <- merge(within_collab_diverse01,within_collab_diverse02, by.x=c('field','group_year'), by.y=c('field','group_year'))
 within_collab_diverse01
+
+within_collab_diverse01a <- within_collab_diverse01 %>%
+  select(field,group_year,mean_patent_team_size=team_size,sd_patent_team_size=sd_size,proportion_women=ratio_women,sd_proportion_women=sd_ratio_women,proportion_patent_with_one_women=pct_one,proportion_patent_with_two_women=pct_two,proportion_patent_with_more_than_three_women=pct_more_3)
+
+#savepath = "us_patents_case_study/04_products/Tables/Collaboration Analysis/"
+readr::write_csv(within_collab_diverse01a, "patent_descriptive_features_by_year_and_field.csv")
+
 
 ```
 
@@ -358,7 +374,6 @@ yearlist <- sort(unique(inventor_status$year))
 
 for (f in c('pharmaceuticals','civil engineering')){
   for (t in yearlist[2:length(yearlist)]){
-    print(t)
     oldinventorslist <- unique(inventor_status$inventor_id[(inventor_status$field==f)&(inventor_status$year<t)])
     inventor_status$new[(inventor_status$field==f)&(inventor_status$year==t)&(inventor_status$inventor_id %in% oldinventorslist)] <- 'senior inventor'
   }
@@ -408,8 +423,14 @@ ggarrange(plt7a, plt8a,
           legend="bottom",
           common.legend=T)
 
+status <- status%>%
+  select(field,year,seniority=new,number_inventors=number)
+
+#savepath = "us_patents_case_study/04_products/Tables/Collaboration Analysis/"
+readr::write_csv(status, "inventors_distribution_by_year_field_seniority.csv")
 
 
+############################################################
 Descriptive00 <- inventor_desc %>%
   filter(gender=='women') %>%
   group_by(inventor_id,field,year) %>%
@@ -440,6 +461,12 @@ ggarrange(plt7b, plt8b,
           legend="bottom",
           common.legend=T)
 
+Descriptive00a <- Descriptive00 %>%
+  select(field,year,patent_category=dummy_collab,number_patents_withwomencollaboration=collabwomen)
+
+#savepath = "us_patents_case_study/04_products/Tables/Collaboration Analysis/"
+readr::write_csv(Descriptive00a, "patent_distribution_by_year_field_patentcategory_withwomencollaboration.csv")
+
 
 ```
 
@@ -464,6 +491,8 @@ status <- inventor_status %>%
             pct_old=round(mean(pct_old, na.rm=T),2))
 
 
+
+#########################################################################################
 Descriptive00 <- inventor_desc %>%
   filter(gender=='women') %>%
   group_by(inventor_id,dummy_collab) %>%
@@ -516,7 +545,7 @@ Descriptive01[Descriptive01$new=='senior inventor',]
 
 # proportion of women working with other women in collaborative patents
 ```{r}
-Descriptive02 <- inventor_desc %>%
+Descriptive02a <- inventor_desc %>%
   filter((gender=='women')&(Ninventor>1)) %>%
   mutate(otherwomen=if_else(Nwomen>1,1,0)) %>%
   group_by(inventor_id,year,field) %>%
@@ -529,14 +558,14 @@ Descriptive02 <- inventor_desc %>%
   
 
 #plot
-plt7c <- ggplot(subset(Descriptive02, (field=='pharmaceuticals') ), aes(x=year, y=value, fill=otherwomen)) + 
+plt7c <- ggplot(subset(Descriptive02a, (field=='pharmaceuticals') ), aes(x=year, y=value, fill=otherwomen)) + 
   geom_bar(stat="identity",colour="black") +
   ylim(0,4500) +
   scale_fill_manual(values=c("#676767","#22cf22")) +
   labs(x = "year", y="Number of women inventors \n collaborating in patents", title='Pharmaceuticals', fill='') + 
   theme(plot.title = element_text(size=10))
 
-plt8c <- ggplot(subset(Descriptive02, (field=='civil engineering') ), aes(x=year, y=value, fill=otherwomen)) + 
+plt8c <- ggplot(subset(Descriptive02a, (field=='civil engineering') ), aes(x=year, y=value, fill=otherwomen)) + 
   geom_bar(stat="identity", colour="black") +
   ylim(0,4500) +
   scale_fill_manual(values=type.pallete) +
@@ -551,8 +580,17 @@ ggarrange(plt7c, plt8c,
           legend="bottom",
           common.legend=T)
 
+# save the data
+Descriptive02a <- Descriptive02a %>% 
+  select(field,year,inventor_collaboration_specific=otherwomen,number_women_inventors=value)
+readr::write_csv(Descriptive02a, "womeninventor_distribution_by_year_field_collaborationfeature.csv")
+
+
+
+#######################################
+
 # characteristrics of those who collaborated
-Descriptive02 <- inventor_desc %>%
+Descriptive02b <- inventor_desc %>%
   filter((gender=='women')&(Ninventor>1)&(Nwomen>1)) %>%
   select(patent_id,year,field,new) %>%
   mutate(value=1) %>%
@@ -573,13 +611,13 @@ Descriptive02 <- inventor_desc %>%
 senior1.palette <- c("#AA44FF","#BD85EA","#7830B3")
 senior2.palette <- c('#CC6677','#AA4499','#882255')
 #plot
-plt7d <- ggplot(subset(Descriptive02, (field=='pharmaceuticals') ), aes(x=year, y=value, fill=class) ) +
+plt7d <- ggplot(subset(Descriptive02b, (field=='pharmaceuticals') ), aes(x=year, y=value, fill=class) ) +
   geom_bar(stat="identity", position='fill', width=1.2, size=0) +
   labs(x = "year", y="Proportion of patents with more \n than 02 women inventors", title='Pharmaceuticals', fill='') +
   scale_fill_manual(values=senior2.palette) +
   theme(plot.title = element_text(size=10))
 
-plt8d <- ggplot(subset(Descriptive02, (field=='civil engineering') ), aes(x=year, y=value, fill=class )) +
+plt8d <- ggplot(subset(Descriptive02b, (field=='civil engineering') ), aes(x=year, y=value, fill=class )) +
   geom_bar(stat="identity", position='fill', width=1.2, size=0) +
   labs(x = "year", y="", title=' Civil Engineering', fill='') +
   scale_fill_manual(values=senior2.palette) +
@@ -591,6 +629,12 @@ ggarrange(plt7d, plt8d,
           widths = c(3, 3) ,
           legend="bottom",
           common.legend=T)
+
+# save the data
+Descriptive02b <- Descriptive02b %>% 
+  select(field,year,women_mentorship=class,number_women_inventors=value)
+readr::write_csv(Descriptive02b, "womeninventor_distribution_by_year_field_mentorship.csv")
+
 ```
 
 

@@ -1,0 +1,9 @@
+field,group_year,mean_patent_team_size,sd_patent_team_size,proportion_women,sd_proportion_women,proportion_patent_with_one_women,proportion_patent_with_two_women,proportion_patent_with_more_than_three_women
+civil engineering,1976-1990,2.56,0.97,44.72,13.49,89.13,9.78,1.09
+civil engineering,1990-2000,3.11,1.64,40.42,14.82,92.09,6.67,1.24
+civil engineering,2000-2010,3.84,2.3,35.83,16.04,90.81,7.58,1.61
+civil engineering,2010-2021,3.91,2.07,34.96,15.23,86.82,10.96,2.22
+pharmaceuticals,1976-1990,3.03,1.24,41.33,14.8,86.19,11.28,2.53
+pharmaceuticals,1990-2000,3.8,1.97,39.51,17.32,76.87,18.39,4.74
+pharmaceuticals,2000-2010,4.7,3.07,37.43,18.18,66.61,22.91,10.48
+pharmaceuticals,2010-2021,4.98,3.21,36.88,18.04,62.64,24.78,12.58

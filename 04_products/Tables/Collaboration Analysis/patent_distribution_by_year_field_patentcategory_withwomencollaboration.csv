@@ -1,4 +1,4 @@
-field,year,patent_category,count
+field,year,patent_category,number_patents_withwomencollaboration
 civil engineering,1976,collaborative,46
 civil engineering,1976,solo,59
 civil engineering,1977,collaborative,49
