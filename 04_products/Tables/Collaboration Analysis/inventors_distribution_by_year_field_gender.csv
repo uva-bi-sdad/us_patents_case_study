@@ -1,0 +1,277 @@
+field,year,gender,number_inventors
+civil engineering,1976,men,2902
+civil engineering,1976,unknown,41
+civil engineering,1976,women,105
+pharmaceuticals,1976,men,697
+pharmaceuticals,1976,unknown,21
+pharmaceuticals,1976,women,40
+civil engineering,1977,men,2763
+civil engineering,1977,unknown,42
+civil engineering,1977,women,112
+pharmaceuticals,1977,men,826
+pharmaceuticals,1977,unknown,20
+pharmaceuticals,1977,women,49
+civil engineering,1978,men,2887
+civil engineering,1978,unknown,43
+civil engineering,1978,women,140
+pharmaceuticals,1978,men,798
+pharmaceuticals,1978,unknown,17
+pharmaceuticals,1978,women,65
+civil engineering,1979,men,1921
+civil engineering,1979,unknown,29
+civil engineering,1979,women,88
+pharmaceuticals,1979,men,663
+pharmaceuticals,1979,unknown,16
+pharmaceuticals,1979,women,49
+civil engineering,1980,men,2490
+civil engineering,1980,unknown,39
+civil engineering,1980,women,111
+pharmaceuticals,1980,men,782
+pharmaceuticals,1980,unknown,17
+pharmaceuticals,1980,women,79
+civil engineering,1981,men,2727
+civil engineering,1981,unknown,31
+civil engineering,1981,women,123
+pharmaceuticals,1981,men,835
+pharmaceuticals,1981,unknown,14
+pharmaceuticals,1981,women,75
+civil engineering,1982,men,2235
+civil engineering,1982,unknown,30
+civil engineering,1982,women,105
+pharmaceuticals,1982,men,846
+pharmaceuticals,1982,unknown,23
+pharmaceuticals,1982,women,66
+civil engineering,1983,men,2332
+civil engineering,1983,unknown,49
+civil engineering,1983,women,86
+pharmaceuticals,1983,men,750
+pharmaceuticals,1983,unknown,12
+pharmaceuticals,1983,women,59
+civil engineering,1984,men,2902
+civil engineering,1984,unknown,49
+civil engineering,1984,women,139
+pharmaceuticals,1984,men,970
+pharmaceuticals,1984,unknown,10
+pharmaceuticals,1984,women,114
+civil engineering,1985,men,2744
+civil engineering,1985,unknown,36
+civil engineering,1985,women,145
+pharmaceuticals,1985,men,1041
+pharmaceuticals,1985,unknown,31
+pharmaceuticals,1985,women,124
+civil engineering,1986,men,2912
+civil engineering,1986,unknown,46
+civil engineering,1986,women,120
+pharmaceuticals,1986,men,1086
+pharmaceuticals,1986,unknown,30
+pharmaceuticals,1986,women,122
+civil engineering,1987,men,3363
+civil engineering,1987,unknown,55
+civil engineering,1987,women,152
+pharmaceuticals,1987,men,1451
+pharmaceuticals,1987,unknown,47
+pharmaceuticals,1987,women,198
+civil engineering,1988,men,2816
+civil engineering,1988,unknown,41
+civil engineering,1988,women,131
+pharmaceuticals,1988,men,1432
+pharmaceuticals,1988,unknown,48
+pharmaceuticals,1988,women,223
+civil engineering,1989,men,3600
+civil engineering,1989,unknown,51
+civil engineering,1989,women,195
+pharmaceuticals,1989,men,2007
+pharmaceuticals,1989,unknown,59
+pharmaceuticals,1989,women,287
+civil engineering,1990,men,3424
+civil engineering,1990,unknown,54
+civil engineering,1990,women,167
+pharmaceuticals,1990,men,2109
+pharmaceuticals,1990,unknown,70
+pharmaceuticals,1990,women,319
+civil engineering,1991,men,3604
+civil engineering,1991,unknown,52
+civil engineering,1991,women,183
+pharmaceuticals,1991,men,2355
+pharmaceuticals,1991,unknown,82
+pharmaceuticals,1991,women,350
+civil engineering,1992,men,3595
+civil engineering,1992,unknown,38
+civil engineering,1992,women,220
+pharmaceuticals,1992,men,2521
+pharmaceuticals,1992,unknown,87
+pharmaceuticals,1992,women,446
+civil engineering,1993,men,3568
+civil engineering,1993,unknown,58
+civil engineering,1993,women,204
+pharmaceuticals,1993,men,2808
+pharmaceuticals,1993,unknown,104
+pharmaceuticals,1993,women,501
+civil engineering,1994,men,3565
+civil engineering,1994,unknown,60
+civil engineering,1994,women,186
+pharmaceuticals,1994,men,2831
+pharmaceuticals,1994,unknown,107
+pharmaceuticals,1994,women,485
+civil engineering,1995,men,3483
+civil engineering,1995,unknown,51
+civil engineering,1995,women,183
+pharmaceuticals,1995,men,3494
+pharmaceuticals,1995,unknown,119
+pharmaceuticals,1995,women,629
+civil engineering,1996,men,3948
+civil engineering,1996,unknown,60
+civil engineering,1996,women,216
+pharmaceuticals,1996,men,4244
+pharmaceuticals,1996,unknown,164
+pharmaceuticals,1996,women,848
+civil engineering,1997,men,3780
+civil engineering,1997,unknown,57
+civil engineering,1997,women,212
+pharmaceuticals,1997,men,5831
+pharmaceuticals,1997,unknown,225
+pharmaceuticals,1997,women,1208
+civil engineering,1998,men,4742
+civil engineering,1998,unknown,66
+civil engineering,1998,women,257
+pharmaceuticals,1998,men,6926
+pharmaceuticals,1998,unknown,272
+pharmaceuticals,1998,women,1550
+civil engineering,1999,men,4885
+civil engineering,1999,unknown,69
+civil engineering,1999,women,289
+pharmaceuticals,1999,men,7048
+pharmaceuticals,1999,unknown,298
+pharmaceuticals,1999,women,1589
+civil engineering,2000,men,5136
+civil engineering,2000,unknown,70
+civil engineering,2000,women,295
+pharmaceuticals,2000,men,7170
+pharmaceuticals,2000,unknown,308
+pharmaceuticals,2000,women,1621
+civil engineering,2001,men,5013
+civil engineering,2001,unknown,95
+civil engineering,2001,women,274
+pharmaceuticals,2001,men,7767
+pharmaceuticals,2001,unknown,382
+pharmaceuticals,2001,women,1807
+civil engineering,2002,men,4913
+civil engineering,2002,unknown,76
+civil engineering,2002,women,309
+pharmaceuticals,2002,men,8180
+pharmaceuticals,2002,unknown,425
+pharmaceuticals,2002,women,1940
+civil engineering,2003,men,5038
+civil engineering,2003,unknown,83
+civil engineering,2003,women,273
+pharmaceuticals,2003,men,8058
+pharmaceuticals,2003,unknown,424
+pharmaceuticals,2003,women,1939
+civil engineering,2004,men,4698
+civil engineering,2004,unknown,87
+civil engineering,2004,women,301
+pharmaceuticals,2004,men,6683
+pharmaceuticals,2004,unknown,378
+pharmaceuticals,2004,women,1607
+civil engineering,2005,men,4322
+civil engineering,2005,unknown,79
+civil engineering,2005,women,260
+pharmaceuticals,2005,men,6481
+pharmaceuticals,2005,unknown,420
+pharmaceuticals,2005,women,1624
+civil engineering,2006,men,4737
+civil engineering,2006,unknown,77
+civil engineering,2006,women,286
+pharmaceuticals,2006,men,7694
+pharmaceuticals,2006,unknown,500
+pharmaceuticals,2006,women,1978
+civil engineering,2007,men,4158
+civil engineering,2007,unknown,76
+civil engineering,2007,women,262
+pharmaceuticals,2007,men,7100
+pharmaceuticals,2007,unknown,534
+pharmaceuticals,2007,women,1913
+civil engineering,2008,men,4111
+civil engineering,2008,unknown,65
+civil engineering,2008,women,233
+pharmaceuticals,2008,men,7274
+pharmaceuticals,2008,unknown,545
+pharmaceuticals,2008,women,1905
+civil engineering,2009,men,4280
+civil engineering,2009,unknown,76
+civil engineering,2009,women,268
+pharmaceuticals,2009,men,7707
+pharmaceuticals,2009,unknown,637
+pharmaceuticals,2009,women,2166
+civil engineering,2010,men,5868
+civil engineering,2010,unknown,114
+civil engineering,2010,women,371
+pharmaceuticals,2010,men,10005
+pharmaceuticals,2010,unknown,818
+pharmaceuticals,2010,women,2798
+civil engineering,2011,men,5679
+civil engineering,2011,unknown,105
+civil engineering,2011,women,379
+pharmaceuticals,2011,men,10111
+pharmaceuticals,2011,unknown,808
+pharmaceuticals,2011,women,2767
+civil engineering,2012,men,6175
+civil engineering,2012,unknown,125
+civil engineering,2012,women,402
+pharmaceuticals,2012,men,11416
+pharmaceuticals,2012,unknown,941
+pharmaceuticals,2012,women,3283
+civil engineering,2013,men,7154
+civil engineering,2013,unknown,155
+civil engineering,2013,women,496
+pharmaceuticals,2013,men,12640
+pharmaceuticals,2013,unknown,1004
+pharmaceuticals,2013,women,3698
+civil engineering,2014,men,7905
+civil engineering,2014,unknown,200
+civil engineering,2014,women,593
+pharmaceuticals,2014,men,13590
+pharmaceuticals,2014,unknown,1089
+pharmaceuticals,2014,women,3964
+civil engineering,2015,men,8537
+civil engineering,2015,unknown,194
+civil engineering,2015,women,631
+pharmaceuticals,2015,men,13087
+pharmaceuticals,2015,unknown,1104
+pharmaceuticals,2015,women,3732
+civil engineering,2016,men,9070
+civil engineering,2016,unknown,203
+civil engineering,2016,women,681
+pharmaceuticals,2016,men,13198
+pharmaceuticals,2016,unknown,1058
+pharmaceuticals,2016,women,3805
+civil engineering,2017,men,9490
+civil engineering,2017,unknown,231
+civil engineering,2017,women,736
+pharmaceuticals,2017,men,14012
+pharmaceuticals,2017,unknown,1108
+pharmaceuticals,2017,women,4105
+civil engineering,2018,men,10076
+civil engineering,2018,unknown,266
+civil engineering,2018,women,773
+pharmaceuticals,2018,men,13477
+pharmaceuticals,2018,unknown,1073
+pharmaceuticals,2018,women,3913
+civil engineering,2019,men,11383
+civil engineering,2019,unknown,324
+civil engineering,2019,women,913
+pharmaceuticals,2019,men,14157
+pharmaceuticals,2019,unknown,1102
+pharmaceuticals,2019,women,4151
+civil engineering,2020,men,11265
+civil engineering,2020,unknown,299
+civil engineering,2020,women,891
+pharmaceuticals,2020,men,14453
+pharmaceuticals,2020,unknown,1175
+pharmaceuticals,2020,women,4117
+civil engineering,2021,men,10724
+civil engineering,2021,unknown,579
+civil engineering,2021,women,849
+pharmaceuticals,2021,men,14702
+pharmaceuticals,2021,unknown,1192
+pharmaceuticals,2021,women,3883

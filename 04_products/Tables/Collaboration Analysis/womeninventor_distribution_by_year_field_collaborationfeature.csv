@@ -1,4 +1,4 @@
-field,year,otherwomen,count
+field,year,inventor_collaboration_specific,number_women_inventors
 civil engineering,1976,collaborate with only men,40
 civil engineering,1976,collaborate with other women,6
 pharmaceuticals,1976,collaborate with only men,24

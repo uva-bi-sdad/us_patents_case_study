@@ -1,0 +1,183 @@
+field,year,seniority,number_inventors
+civil engineering,1976,new inventor,105
+civil engineering,1977,new inventor,90
+civil engineering,1977,senior inventor,22
+civil engineering,1978,new inventor,112
+civil engineering,1978,senior inventor,28
+civil engineering,1979,new inventor,62
+civil engineering,1979,senior inventor,26
+civil engineering,1980,new inventor,79
+civil engineering,1980,senior inventor,32
+civil engineering,1981,new inventor,94
+civil engineering,1981,senior inventor,29
+civil engineering,1982,new inventor,77
+civil engineering,1982,senior inventor,28
+civil engineering,1983,new inventor,54
+civil engineering,1983,senior inventor,32
+civil engineering,1984,new inventor,100
+civil engineering,1984,senior inventor,39
+civil engineering,1985,new inventor,107
+civil engineering,1985,senior inventor,38
+civil engineering,1986,new inventor,81
+civil engineering,1986,senior inventor,39
+civil engineering,1987,new inventor,109
+civil engineering,1987,senior inventor,43
+civil engineering,1988,new inventor,99
+civil engineering,1988,senior inventor,32
+civil engineering,1989,new inventor,143
+civil engineering,1989,senior inventor,52
+civil engineering,1990,new inventor,104
+civil engineering,1990,senior inventor,63
+civil engineering,1991,new inventor,142
+civil engineering,1991,senior inventor,41
+civil engineering,1992,new inventor,164
+civil engineering,1992,senior inventor,56
+civil engineering,1993,new inventor,143
+civil engineering,1993,senior inventor,61
+civil engineering,1994,new inventor,119
+civil engineering,1994,senior inventor,67
+civil engineering,1995,new inventor,123
+civil engineering,1995,senior inventor,60
+civil engineering,1996,new inventor,150
+civil engineering,1996,senior inventor,66
+civil engineering,1997,new inventor,154
+civil engineering,1997,senior inventor,58
+civil engineering,1998,new inventor,184
+civil engineering,1998,senior inventor,73
+civil engineering,1999,new inventor,199
+civil engineering,1999,senior inventor,90
+civil engineering,2000,new inventor,217
+civil engineering,2000,senior inventor,78
+civil engineering,2001,new inventor,173
+civil engineering,2001,senior inventor,101
+civil engineering,2002,new inventor,210
+civil engineering,2002,senior inventor,99
+civil engineering,2003,new inventor,166
+civil engineering,2003,senior inventor,107
+civil engineering,2004,new inventor,196
+civil engineering,2004,senior inventor,105
+civil engineering,2005,new inventor,174
+civil engineering,2005,senior inventor,86
+civil engineering,2006,new inventor,185
+civil engineering,2006,senior inventor,101
+civil engineering,2007,new inventor,162
+civil engineering,2007,senior inventor,100
+civil engineering,2008,new inventor,121
+civil engineering,2008,senior inventor,112
+civil engineering,2009,new inventor,161
+civil engineering,2009,senior inventor,107
+civil engineering,2010,new inventor,231
+civil engineering,2010,senior inventor,140
+civil engineering,2011,new inventor,216
+civil engineering,2011,senior inventor,163
+civil engineering,2012,new inventor,204
+civil engineering,2012,senior inventor,198
+civil engineering,2013,new inventor,290
+civil engineering,2013,senior inventor,206
+civil engineering,2014,new inventor,343
+civil engineering,2014,senior inventor,250
+civil engineering,2015,new inventor,374
+civil engineering,2015,senior inventor,257
+civil engineering,2016,new inventor,382
+civil engineering,2016,senior inventor,299
+civil engineering,2017,new inventor,398
+civil engineering,2017,senior inventor,338
+civil engineering,2018,new inventor,424
+civil engineering,2018,senior inventor,349
+civil engineering,2019,new inventor,506
+civil engineering,2019,senior inventor,407
+civil engineering,2020,new inventor,491
+civil engineering,2020,senior inventor,400
+civil engineering,2021,new inventor,470
+civil engineering,2021,senior inventor,379
+pharmaceuticals,1976,new inventor,40
+pharmaceuticals,1977,new inventor,41
+pharmaceuticals,1977,senior inventor,8
+pharmaceuticals,1978,new inventor,47
+pharmaceuticals,1978,senior inventor,18
+pharmaceuticals,1979,new inventor,32
+pharmaceuticals,1979,senior inventor,17
+pharmaceuticals,1980,new inventor,56
+pharmaceuticals,1980,senior inventor,23
+pharmaceuticals,1981,new inventor,49
+pharmaceuticals,1981,senior inventor,26
+pharmaceuticals,1982,new inventor,45
+pharmaceuticals,1982,senior inventor,21
+pharmaceuticals,1983,new inventor,34
+pharmaceuticals,1983,senior inventor,25
+pharmaceuticals,1984,new inventor,79
+pharmaceuticals,1984,senior inventor,35
+pharmaceuticals,1985,new inventor,81
+pharmaceuticals,1985,senior inventor,43
+pharmaceuticals,1986,new inventor,78
+pharmaceuticals,1986,senior inventor,44
+pharmaceuticals,1987,new inventor,134
+pharmaceuticals,1987,senior inventor,64
+pharmaceuticals,1988,new inventor,165
+pharmaceuticals,1988,senior inventor,58
+pharmaceuticals,1989,new inventor,169
+pharmaceuticals,1989,senior inventor,118
+pharmaceuticals,1990,new inventor,184
+pharmaceuticals,1990,senior inventor,135
+pharmaceuticals,1991,new inventor,193
+pharmaceuticals,1991,senior inventor,157
+pharmaceuticals,1992,new inventor,270
+pharmaceuticals,1992,senior inventor,176
+pharmaceuticals,1993,new inventor,292
+pharmaceuticals,1993,senior inventor,209
+pharmaceuticals,1994,new inventor,259
+pharmaceuticals,1994,senior inventor,226
+pharmaceuticals,1995,new inventor,340
+pharmaceuticals,1995,senior inventor,289
+pharmaceuticals,1996,new inventor,478
+pharmaceuticals,1996,senior inventor,370
+pharmaceuticals,1997,new inventor,611
+pharmaceuticals,1997,senior inventor,597
+pharmaceuticals,1998,new inventor,788
+pharmaceuticals,1998,senior inventor,762
+pharmaceuticals,1999,new inventor,769
+pharmaceuticals,1999,senior inventor,820
+pharmaceuticals,2000,new inventor,703
+pharmaceuticals,2000,senior inventor,918
+pharmaceuticals,2001,new inventor,802
+pharmaceuticals,2001,senior inventor,1005
+pharmaceuticals,2002,new inventor,829
+pharmaceuticals,2002,senior inventor,1111
+pharmaceuticals,2003,new inventor,780
+pharmaceuticals,2003,senior inventor,1159
+pharmaceuticals,2004,new inventor,618
+pharmaceuticals,2004,senior inventor,989
+pharmaceuticals,2005,new inventor,607
+pharmaceuticals,2005,senior inventor,1017
+pharmaceuticals,2006,new inventor,727
+pharmaceuticals,2006,senior inventor,1251
+pharmaceuticals,2007,new inventor,718
+pharmaceuticals,2007,senior inventor,1195
+pharmaceuticals,2008,new inventor,703
+pharmaceuticals,2008,senior inventor,1202
+pharmaceuticals,2009,new inventor,868
+pharmaceuticals,2009,senior inventor,1298
+pharmaceuticals,2010,new inventor,1059
+pharmaceuticals,2010,senior inventor,1739
+pharmaceuticals,2011,new inventor,956
+pharmaceuticals,2011,senior inventor,1811
+pharmaceuticals,2012,new inventor,1080
+pharmaceuticals,2012,senior inventor,2203
+pharmaceuticals,2013,new inventor,1330
+pharmaceuticals,2013,senior inventor,2368
+pharmaceuticals,2014,new inventor,1472
+pharmaceuticals,2014,senior inventor,2492
+pharmaceuticals,2015,new inventor,1203
+pharmaceuticals,2015,senior inventor,2529
+pharmaceuticals,2016,new inventor,1250
+pharmaceuticals,2016,senior inventor,2555
+pharmaceuticals,2017,new inventor,1292
+pharmaceuticals,2017,senior inventor,2813
+pharmaceuticals,2018,new inventor,1219
+pharmaceuticals,2018,senior inventor,2694
+pharmaceuticals,2019,new inventor,1285
+pharmaceuticals,2019,senior inventor,2866
+pharmaceuticals,2020,new inventor,1254
+pharmaceuticals,2020,senior inventor,2863
+pharmaceuticals,2021,new inventor,1247
+pharmaceuticals,2021,senior inventor,2636
